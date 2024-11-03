@@ -25,7 +25,7 @@ To enable a user to login to a Kanban board and set tasks for a project.
 
 ## Contributions
 
-I used modules in the class repo as a frame of reference. I also use the following online resources.
+I used modules in the class repo as a frame of reference. I also use the following online resources. For example I used Activity 25 and 26.
 
 ## Tests
   

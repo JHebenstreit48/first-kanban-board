@@ -26,8 +26,6 @@ const login = async (userInfo: UserLogin) => {
     console.log('Error from user login: ', err);  // Log any errors that occur during fetch
     return Promise.reject('Could not fetch user info');  // Return a rejected promise with an error message
   }
-}
-
-
+};
 
 export { login };

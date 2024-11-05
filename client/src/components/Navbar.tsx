@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import auth from '../utils/auth';
+import '../CSS/nav.css';
 
 const Navbar = () => {
   const [ loginCheck, setLoginCheck ] = useState(false);
@@ -25,7 +26,7 @@ const Navbar = () => {
       {
         !loginCheck ? (
           <li className='nav-item'>
-            <button type='button'>
+            <button type='button' className='navButton'>
               <Link to='/login'>Login</Link>
             </button>
           </li>

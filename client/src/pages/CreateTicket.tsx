@@ -4,6 +4,7 @@ import { createTicket } from '../api/ticketAPI';
 import { TicketData } from '../interfaces/TicketData';
 import { UserData } from '../interfaces/UserData';
 import { retrieveUsers } from '../api/userAPI';
+import '../CSS/createTicket.css';
 
 const CreateTicket = () => {
   const [newTicket, setNewTicket] = useState<TicketData | undefined>(
@@ -63,7 +64,7 @@ const CreateTicket = () => {
       <div className='container'>
         <form className='form' onSubmit=
         {handleSubmit}>
-          <h1>Create Ticket</h1>
+          <h1 className='formHeader'>Create Ticket</h1>
           <label htmlFor='tName'>Ticket Name</label>
           <textarea 
             id='tName'
@@ -111,7 +112,7 @@ const CreateTicket = () => {
             )
           }
           </select>
-          <button type='submit' onSubmit={handleSubmit}>Submit Form</button>
+          <button type='submit' className='submitButton' onSubmit={handleSubmit}>Submit Form</button>
         </form>
       </div>
     </>

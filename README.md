@@ -16,8 +16,30 @@ To set up the authentication for a Kanban board using JSON Web tokens
 
 ## Installation
 
-[GitHubRepo](https://github.com/JHebenstreit48/first-kanban-board),
-[Deployed Site](https://kanban-board-4jiv.onrender.com/)
+GitHubRepo: https://github.com/JHebenstreit48/first-kanban-board
+
+Deployed Site: https://kanban-board-4jiv.onrender.com/
+
+
+Home
+
+![ Home Page ](client/src/assets/homePage.png)
+
+Login
+
+![ Login Page ](client/src/assets/loginPage.png)
+
+Main Kanban
+
+![ Main Kanban ](client/src/assets/mainKanbanBoard.png)
+
+Create Ticket
+
+![ Create Ticket ](client/src/assets/newTicketCreation.png)
+
+Edit Ticket
+
+![ Edit Ticket ](client/src/assets/EditTicketPage.png)
 
 ## Usage
 

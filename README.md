@@ -16,6 +16,9 @@ To set up the authentication for a Kanban board using JSON Web tokens
 
 ## Installation
 
+[GitHubRepo](https://github.com/JHebenstreit48/first-kanban-board),
+[Deployed Site](https://kanban-board-4jiv.onrender.com/)
+
 ## Usage
 
 To enable a user to login to a Kanban board and set tasks for a project.
@@ -25,9 +28,17 @@ To enable a user to login to a Kanban board and set tasks for a project.
 
 ## Contributions
 
-I used modules in the class repo as a frame of reference. I also use the following online resources. For example I used Activity 25 and 26.
+I used the following activities 25 and 26 in the class repository for this project.
 
 ## Tests
+
+The following commands were used to test this sites operation:
+
+```bash
+npm build
+npm run seed
+npm run start:dev
+```
   
 ## Questions
 

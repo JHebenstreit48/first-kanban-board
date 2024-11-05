@@ -1,0 +1,113 @@
+main {
+    color: black;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .login-notice {
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;
+  }
+
+  
+  tr {
+    border-radius: 10px;
+    background-color: #000;
+    color: white;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #333333;
+  }
+  
+  .active {
+    font-weight: 700;
+  }
+  
+  .table {
+    width: 80vw;
+    table-layout: fixed;
+  }
+  
+  .board {
+    width: 100%;
+  }
+  
+  .board-display {
+    display: flex;
+  }
+  
+  .swim-lane {
+    text-align: center;
+    font-weight: 500;
+    width: 33%;
+    height: 90vh; 
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .todo {
+    background-color: #e9cbec;
+  }
+  
+  .inprogress {
+    background-color: #b864c4;
+  }
+  
+  .done {
+    background-color: #732381;
+  }
+  
+  .ticket-card {
+    text-align: left;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 0.1em solid black;
+  }
+  
+  .container {
+    /* margin: auto; */
+    width: 100%;
+    /* height: 90%; */
+  }
+  
+  #create-ticket-link {
+    display: block;
+    margin-left: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .editBtn {
+    background-color: #f9f9f9;
+    color: black;
+    padding-right: 8px;
+    padding-left: 12px;
+    border-right:1px solid rgb(187, 186, 186);
+    border-bottom: 1px solid rgb(187, 186, 186);
+    font-size: 15px;
+  }
+  
+  .deleteBtn {
+    background-color: #f9f9f9;
+    font-weight: 500;
+    color: black;
+    text-decoration: inherit;
+    margin-left: 1rem;
+  }
+  
+  .deleteBtn:hover {
+    color: #535bf2;
+  }
+

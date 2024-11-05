@@ -1,0 +1,66 @@
+.form {
+  height: 25rem;
+  background-color: #b864c4;
+  margin: 7rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.2rem solid rgb(3, 255, 255);
+  border-radius: 2rem;
+  box-shadow: 0rem 0rem 2rem rgb(3, 255, 255);
+}
+
+.formHeader {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form > h1,
+.form > label {
+  color: rgb(255, 217, 0);
+  text-shadow: #000 0.5rem 0.5rem 1.5rem;
+  margin-bottom: 2.6rem;
+}
+
+.form > input {
+  width: 200px;
+}
+
+.form > label {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  font-size: 1.5rem;
+}
+
+.form button {
+  color: white;
+  margin-top: 2rem;
+}
+
+.form textarea {
+  resize: both;
+  min-height: 30px;
+  min-width: 30px;
+}
+
+.submitButton {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 1rem 2rem;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.submitButton:hover {
+  border-color: #646cff;
+}
+.submitButton:focus,
+.submitButton:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

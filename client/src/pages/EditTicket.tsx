@@ -1,6 +1,6 @@
 import { useState, useEffect, FormEvent, ChangeEvent } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-
+import '../CSS/editTicket.css';
 import { retrieveTicket, updateTicket } from '../api/ticketAPI';
 import { TicketData } from '../interfaces/TicketData';
 
@@ -50,7 +50,7 @@ const EditTicket = () => {
         {
           ticket ? (
             <form className='form' onSubmit={handleSubmit}>
-              <h1>Edit Ticket</h1>
+              <h1 className='formHeader'>Edit Ticket</h1>
               <label htmlFor='tName'>Ticket Name</label>
               <textarea
                 id='tName'
@@ -76,7 +76,7 @@ const EditTicket = () => {
                 value={ticket.description || ''}
                 onChange={handleTextAreaChange}
               />
-              <button type='submit'>Submit Form</button>
+              <button type='submit' className='submitButton'>Submit Form</button>
             </form>
           ) : (
             <div>Issues fetching ticket</div>

@@ -1,5 +1,5 @@
 import { useState, FormEvent, ChangeEvent } from "react";
-
+import '../CSS/loginForm.css';
 import Auth from '../utils/auth';
 import { login } from "../api/authAPI";
 
@@ -45,7 +45,7 @@ const Login = () => {
           value={loginData.password || ''}
           onChange={handleChange}
         />
-        <button type='submit'>Submit Form</button>
+        <button type='submit' className="submitButton">Submit Form</button>
       </form>
     </div>
     
